@@ -1,0 +1,39 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Top and Bottom sections (blue) */
+.top, .bottom {
+    background-color: #3366cc; /* Blue color */
+    height: 15%; /* Occupy 15% of the height */
+    width: 100%; /* Full width */
+}
+
+/* Middle section container */
+.middle {
+    display: flex;
+    flex: 1; /* Occupy the remaining space */
+}
+
+/* Left section (gray) */
+.left {
+    background-color: #d9d9d9; /* Gray color */
+    width: 25%; /* Occupy 25% of the width */
+}
+
+/* Right section (green) */
+.right {
+    background-color: #b3e6b3; /* Light green color */
+    flex: 1; /* Occupy the remaining width */
+}

@@ -1,0 +1,23 @@
+th {
+    background-color: #133E87;
+}
+
+td, th {
+    border: 1px solid #333;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.mc {
+    background-color:#608BC1;
+}
+
+.pe {
+    background-color: #CBDCEB;
+}
+
+tr:hover {
+    background-color: green;
+}

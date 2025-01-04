@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Database Tables</title>
+</head>
+<body>
+
+<div class="table-container">
+    <!-- Account Table -->
+    <table>
+        <tr>
+            <th colspan="3">account</th>
+        </tr>
+        <tr>
+            <td><b>PK</b></td>
+            <td><b>accountID</b></td>
+            <td>int</td>
+        </tr>
+        <tr class="highlight">
+            <td></td>
+            <td><b>username</b></td>
+            <td>varchar</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><b>password</b></td>
+            <td>varchar</td>
+        </tr>
+    </table>
+
+    <!-- Photo Table -->
+    <table>
+        <tr>
+            <th colspan="3">photo</th>
+        </tr>
+        <tr>
+            <td><b>PK</b></td>
+            <td><b>photoID</b></td>
+            <td>int</td>
+        </tr>
+        <tr class="highlight">
+            <td></td>
+            <td>data</td>
+            <td>varchar</td>
+        </tr>
+    </table>
+
+    <!-- Account_Photo Table -->
+    <table>
+        <tr>
+            <th colspan="3">account_photo</th>
+        </tr>
+        <tr>
+            <td><b>FK</b></td>
+            <td><b>accountID</b></td>
+            <td>int</td>
+        </tr>
+        <tr class="highlight">
+            <td><b>FK</b></td>
+            <td><b>photoID</b></td>
+            <td>int</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

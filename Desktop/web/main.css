@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+.table-container {
+    display: flex;
+    gap: 20px;
+}
+table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+td, th {
+    padding: 3px;
+    border: 1px solid #333;
+}
+td {
+    text-align: left;
+    
+}
+th {
+    text-align: center;
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+.highlight {
+    background-color: #d3d3d3;
+}
